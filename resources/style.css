@@ -1,4 +1,21 @@
+/* Fonts */
+@font-face { font-family: Cyberdyne; src: url('./fonts/cyberdyne.ttf'); }
+@font-face { font-family: Cyberfunk; src: url('./fonts/Cyberfunk.ttf'); }
+
 html {
     background-color: #708090;
-    
+}
+
+.icon {
+    width: 48px;
+    height: auto;
+}
+
+.title1 {
+    font-family: Cyberfunk;
+    color: #008000;
+}
+
+.title2 {
+    font-family: Cyberdyne;
 }
